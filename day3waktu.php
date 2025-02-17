@@ -10,12 +10,15 @@ else if($jam >= date("04.00.00") && $jam < date("10.00.00")) {
 else if($jam >= date("10.00.00") && $jam < date("15.00.00")) {
     echo("Jam = Siang Hari($jam)");}
 
-else if($jam >= date("15.00.00") && $jam < date("18.00.00")) {
+else if($jam >= date("15.00.00") && $jam < date("17.30.00")) {
     echo("Jam = Sore Hari($jam)");}
 
-else if($jam >= date("18.00.00") && $jam < date("23.59.59")) {
+else if($jam >= date("17.30.00") && $jam < date("18.30.00")) {
+    echo("Jam = Petang Hari($jam)");}
+
+else if($jam >= date("18.30.00") && $jam < date("24.00.00")) {
     echo("Jam = Malam Hari($jam)");}
 
 else {
-    echo "Itu jam berapa ege";}
+    echo "Dunia Lain";}
 ?>
